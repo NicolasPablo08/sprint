@@ -1,5 +1,5 @@
 import { useRouter } from "next/navigation";
-export default function Home() {
+export default function InfoPage() {
 	const router = useRouter();
-	return <div>home</div>;
+	return <div>info</div>;
 }
